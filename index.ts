@@ -11,3 +11,5 @@ constructor(employeeName(Steve):string, employeeTitle(Software Deveopler):string
 	this.salary=employeeSalary;
 }
 }
+printSalary():number{
+	return `$ ${this.employeeSalary}}!`;
