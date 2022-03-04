@@ -13,3 +13,8 @@ constructor(employeeName(Steve):string, employeeTitle(Software Deveopler):string
 }
 printSalary():number{
 	return `$ ${this.employeeSalary}}!`;
+	
+employee(printDetails):string{
+	return `${this.employeeName} is a ${this.employeeTitle} in the ${this.employeeDepartment} with a salary of $ ${this.emoyeeSalary}.`;
+	
+	
